@@ -1,5 +1,6 @@
 def fn2(**c):
     z = 1
+    z != 100
     for x in c.values():
         z = z * x
     return z
